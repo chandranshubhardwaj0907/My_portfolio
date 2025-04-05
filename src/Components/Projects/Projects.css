@@ -1,0 +1,90 @@
+/* Section Styling */
+.project-section {
+    text-align: center;
+    padding: 50px 20px;
+   background: black;
+    min-height: 100vh;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 500;
+    font-weight: bold;
+    color: white;
+
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(255, 77, 109, 0.3);
+}
+
+/* Grid Container */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Project Card */
+.project-card {
+    /* background: rgba(255, 255, 255, 0.1); */
+    background: linear-gradient(93deg, #171717  -5.09%, #090909 106.28%); 
+
+    border-radius: 12px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(267deg, #DF8908  -5.09%, #B415FF 106.28%); 
+}
+
+/* Project Image */
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    z-index: -1;
+    border-bottom: 3px solid #ff4d6d;
+}
+
+/* Project Info */
+.project-info {
+    padding: 15px;
+    color: white;
+}
+
+.project-info h3 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* View Project Button */
+.project-info a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #B415FF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.project-info a:hover {
+    background: #ff0fbf;
+}

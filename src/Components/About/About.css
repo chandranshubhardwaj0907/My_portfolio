@@ -1,0 +1,111 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 80px;
+    margin: 80px 100px;
+}
+
+.about-title {
+    position: relative;
+}
+
+.about-title h1 {
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* 🔧 Corrected class name from about-sections -> about-section */
+.about-section{
+    display: flex;
+    gap: 50px;
+   
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* 🔧 Fixed class name: about-skills should wrap .about-skill blocks */
+.about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* 🔧 Make sure each skill (p + hr) is wrapped in a div with this class */
+.about-skill {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: 0.3s;
+}
+
+.about-skill p {
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.about-skill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    background: linear-gradient(267deg, #DF8908  -5.09%, #B415FF 106.28%);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.about-achievements{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    width: 100%;
+}
+.about-achievement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.about-achievement h1{
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(267deg, #DF8908  -5.09%, #B415FF 106.28%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.about-achievement p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.about-achievement:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}

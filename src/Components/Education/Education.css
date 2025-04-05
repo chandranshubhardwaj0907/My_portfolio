@@ -1,0 +1,68 @@
+/* Main section styling */
+.education {
+    background-color: #000000; /* Dark background */
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Title styling */
+.education-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: white; /* Accent color */
+    font-size: 50px;
+}
+
+/* Timeline Container */
+.education-timeline {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    border-left: 4px solid #ff4d6d; /* Accent color */
+    padding-left: 20px;
+}
+
+/* Each Education Item */
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* Dot on the timeline */
+.education-dot {
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(267deg, #DF8908  -5.09%, #B415FF 106.28%); /* Gradient from About/Hero */
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+}
+
+/* Content Box */
+.education-content {
+    text-align: left;
+}
+
+/* Year */
+.education-year {
+    font-size: 1.2rem;
+    color: #ff4d6d; /* Matching Navbar */
+}
+
+/* Headings */
+.education-heading {
+    font-size: 1.5rem;
+    margin: 5px 0;
+    color: #ffffff; /* White text */
+}
+
+/* School & Percentage */
+.education-school,
+.education-percentage {
+    color: #bdbdbd; /* Light Grey */
+    font-size: 1rem;
+}
